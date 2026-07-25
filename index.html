@@ -1,0 +1,213 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SmartKart | Smart Shopping Solution! | Young Innovator Dhairya</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+            .BG {
+                background: linear-gradient(135deg, #0f044c 0%, #1d1b6d 50%, #2c2a96 100%);
+            }
+            .title {
+                font-size: 200%;
+                color: #7ef7d2;
+                margin: 30px 0 20px 20px;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+            }
+            .details {
+                font-size: 100%;
+                color: #f7f7f7;
+            }
+            .teleportation {
+                font-size: 199%;
+                font-family: 'Orbitron', sans-serif;
+                font-weight: 700;  
+                text-decoration:none;   
+                color: #ffffff;   
+                padding: 10px 15px;
+                border-radius: 8px;
+                transition: background-color 0.3s ease;
+            }
+            .teleportation:hover {
+                background-color: rgba(255,255,255,0.15);
+            }
+            .navbar {
+                display:flex;
+                justify-content:space-evenly;
+                position:sticky;
+                top: 0;
+                background: rgba(15, 4, 76, 0.95);
+                padding: 15px 0;
+                z-index: 10;
+            }
+            .card {
+                background: linear-gradient(145deg, #111111 0%, #000000 100%);
+                width: 22%;
+                min-width: 220px;
+                border-radius: 20px;
+                padding: 15px;
+                box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+                border: 1px solid rgba(255,255,255,0.08);
+            }
+            .card img {
+                border-radius: 12px;
+                margin-bottom: 10px;
+            }
+            .card h3 {
+                margin: 10px 0 8px;
+            }
+            .card a.button {
+                display: inline-block;
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 180%;
+                background: linear-gradient(135deg, #a9a2cd 0%, #7f78a8 100%);
+                padding: 10px 20px;
+                border-radius: 8px;
+                margin-top: 10px;
+            }
+            .product-row {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                gap: 15px;
+                flex-wrap: wrap;
+                padding: 0 20px 30px;
+            }
+        </style>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body class="BG">
+        <header class="navbar">
+            <a href="#Grocery" class="teleportation">Grocery</a>
+            <a href="#Electronics" class="teleportation" >Electronics</a>
+            <a href="#Clothes" class="teleportation">Clothes</a>
+        </header>
+        <center>
+        <img src="67.png" style="width: 20%; height: 20%;">
+        </center>
+        <br><br><br>
+        <!--GROCERY ITEMS-->
+        <div>
+        <h2 class="title" id="Grocery">
+        GROCERY ITEMS:
+        </h2> 
+        <div class="product-row">
+            <a href="onion.html" style="text-decoration:none; color:inherit;">
+                <div class="card">
+                    <img src="GROCERY/images (1).jpg" alt="Onion" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+                    <h3 style="color: white; font-size: 300%; font-weight: bolder;">Onion</h3>
+                    <p class="details" style="font-size: 100%;">
+                        This is a Onion. It is a very commonly used vegetable in cooking. It adds flavor and aroma to various dishes. Onions are rich in vitamins and minerals, making them a healthy addition to your meals.
+                    </p>
+                    <p class="details" style="font-size: 120%; color: rgb(255, 215, 0); font-weight: bold;">Price: ₹40/kg</p>
+                    <center>
+                        <a href="cart.html" class="button">Add to Cart</a>
+                    </center>
+                </div>
+            </a>
+            <a href="potato.html" style="text-decoration:none; color:inherit;">
+                <div class="card">
+                    <img src="GROCERY/images (2).jpg" alt="Potato" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+                    <h3 style="color: white; font-size: 300%; font-weight: bolder;">Potato</h3>
+                    <p class="details" style="font-size: 100%;">
+                        This is a Potato. It is a very commonly used vegetable in cooking. It adds flavor and aroma to various dishes. Potatoes are rich in vitamins and minerals, making them a healthy addition to your meals.
+                    </p>
+                    <p class="details" style="font-size: 120%; color: rgb(255, 215, 0); font-weight: bold;">Price: ₹35/kg</p>
+                    <center>
+                        <a href="cart.html" class="button">Add to Cart</a>
+                    </center>
+                </div>
+            </a>
+            <a href="apple.html" style="text-decoration:none; color:inherit;">
+                <div class="card">
+                    <img src="GROCERY/images.jpg" alt="Apple" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+                    <h3 style="color: white; font-size: 300%; font-weight: bolder;">Apple</h3>
+                    <p class="details" style="font-size: 100%;">
+                        This is a Apple. It is a very commonly used fruit. Apples are rich in vitamins and minerals.
+                    </p>
+                    <p class="details" style="font-size: 120%; color: rgb(255, 215, 0); font-weight: bold;">Price: ₹180/kg</p>
+                    <center>
+                        <a href="cart.html" class="button">Add to Cart</a>
+                    </center>
+                </div>
+            </a>
+        </div>
+        </div>
+        <!--ELECTRONICS ITEMS-->
+        <div>
+            <h2 class="title" id="Electronics">
+                ELECTRONICS ITEMS:
+            </h2>
+        <div class="product-row">
+            <a href="laptop.html" style="text-decoration:none; color:inherit;">
+                <div class="card">
+                    <img src="ELECTRONICS/images (3).jpg" alt="Laptop" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+                    <h3 style="color: white; font-size: 300%; font-weight: bolder;">Laptop</h3>
+                    <p class="details" style="font-size: 100%;">
+                        This is a Laptop. It is a powerful computing device used for various tasks.
+                    </p>
+                    <p class="details" style="font-size: 120%; color: rgb(255, 215, 0); font-weight: bold;">Price: ₹49,999</p>
+                    <center>
+                        <a href="cart.html" class="button">Add to Cart</a>
+                    </center>
+                </div>
+            </a>
+            <a href="tv.html" style="text-decoration:none; color:inherit;">
+                <div class="card">
+                    <img src="ELECTRONICS/images.jpg" alt="TV" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+                    <h3 style="color: white; font-size: 300%; font-weight: bolder;">TV</h3>
+                    <p class="details" style="font-size: 100%;">
+                        This is a TV. It is a popular entertainment device used for watching shows, movies, and other content.
+                    </p>
+                    <p class="details" style="font-size: 120%; color: rgb(255, 215, 0); font-weight: bold;">Price: ₹29,999</p>
+                    <center>
+                        <a href="cart.html" class="button">Add to Cart</a>
+                    </center>
+                </div>
+            </a>
+        </div>
+        <!--CLOTHES ITEMS-->
+        <div>
+            <h2 class="title" id="Clothes">
+                CLOTHES ITEMS:
+            </h2>
+
+            <div class="product-row">
+                <a href="tshirt.html" style="text-decoration:none; color:inherit;">
+                    <div class="card">
+                        <img src="CLOTHES/images (1).jpg" alt="T-Shirt" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+                        <h3 style="color: white; font-size: 300%; font-weight: bolder;">T-Shirt</h3>
+                        <p class="details" style="font-size: 100%;">
+                            This is a T-Shirt. It is a comfortable and casual piece of clothing suitable for everyday wear.
+                        </p>
+                        <p class="details" style="font-size: 120%; color: rgb(255, 215, 0); font-weight: bold;">Price: ₹499</p>
+                        <center>
+                            <a href="cart.html" class="button">Add to Cart</a>
+                        </center>
+                    </div>
+                </a>
+                <a href="jeans.html" style="text-decoration:none; color:inherit;">
+                    <div class="card">
+                        <img src="CLOTHES/images.jpg" alt="Jeans" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+                        <h3 style="color: white; font-size: 300%; font-weight: bolder;">Jeans</h3>
+                        <p class="details" style="font-size: 100%;">
+                            These are Jeans. They are a versatile and durable type of pants suitable for casual and semi-formal occasions.
+                        </p>
+                        <p class="details" style="font-size: 120%; color: rgb(255, 215, 0); font-weight: bold;">Price: ₹999</p>
+                        <center>
+                            <a href="cart.html" class="button">Add to Cart</a>
+                        </center>
+                    </div>
+                </a>
+            </div>
+
+    </body>
+    </html>
